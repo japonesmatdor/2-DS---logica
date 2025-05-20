@@ -57,4 +57,3 @@ id_produto int primary key auto_increment not null,
   references produto(id_produto);
   alter table Venda add foreign key (id_produto)
   references Produto(id_produto);
-  
