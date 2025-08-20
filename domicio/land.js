@@ -16,6 +16,11 @@ document.getElementById('contactForm').addEventListener('submit', function (even
         if (responseData.result === 'succes'){
             alert ('Dados enviados com sucesso!');
             event.target.reset();
-        }else if (responseData.result === 'rror'&& responseData.message === 'Email already exists'){}
+        }else if (responseData.result === 'rror'&& responseData.message === 'Email already exists'){
+            alert('Erro: O email já existe.');
+        } else {
+            alert('Erro ao enviar os dados.');
+        }
     })
-})
+    .catch(erro => console.error('Error:', error));
+});
