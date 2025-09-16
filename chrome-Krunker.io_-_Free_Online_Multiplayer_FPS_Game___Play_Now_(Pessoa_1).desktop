@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Krunker.io - Free Online Multiplayer FPS Game | Play Now (Pessoa 1)
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --ignore-profile-directory-if-not-exists "https://krunker.io/?game=BRZ:1a826"
+Icon=/tmp/guest-grfe85/.config/google-chrome/Default/Web Shortcut Icons/shortcut-80e639e3771430e1ea8c0f30257f5f62.png
+URL=https://krunker.io/?game=BRZ:1a826
+Comment=Abrir https://krunker.io/?game=BRZ:1a826 em uma nova guia do Google Chrome.
